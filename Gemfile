@@ -4,7 +4,6 @@ source "https://rubygems.org"
 ruby "3.0.6"
 gem "rails", "~> 7.1.0"
 gem 'bcrypt'
-gem 'faker' # この行を追加してください。
 gem "sprockets-rails"
 gem "mysql2", "~> 0.5"
 gem "puma", ">= 5.0"
@@ -15,7 +14,6 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "sassc-rails"
-gem 'turbo-rails'
 gem 'bootstrap-sass', '3.3.6'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.3'
